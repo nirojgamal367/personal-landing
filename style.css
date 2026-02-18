@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header{
+    background-color: wheat;
+    min-height: 100px;
+    text-align: center;
+}
+
+header:hover {
+    background-color: aqua;
+}
+
+main{
+    flex: 1;
+    text-align: center;
+
+    
+}
+img{
+    
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+main p {
+    max-width: 400px;
+    margin: 0 auto 20px;
+    line-height: 1.5;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+footer{
+    background: #000;
+    min-height: 100px;
+    text-align: center;
+    color: aliceblue;
+}
+
+footer:hover{
+    background-color: aqua;
+    color: #000;
+}
+
+@media (max-width: 706px){
+
+}
+
+.red{
+    background: red;
+ 
+}
+.blue{
+    background: blue;
+}
